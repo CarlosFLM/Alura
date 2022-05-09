@@ -1,0 +1,120 @@
+*{
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    font-family: "inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+main{
+    display: flex;
+}
+
+.input-text{
+    position: relative;
+    margin-top: 90px;
+    
+    border: none;
+    outline: none;
+    border-color: #E5E5E5;
+    font-size: 30px;
+    font-style: normal;
+    color:#0A3871;
+    text-align: left;
+    font-weight:bold;
+    resize: none;
+}
+h6{
+    position:absolute;
+    width: 280px;
+    height: 60px;
+    left: 100px;
+    top: 675px;
+    font-size: 15px;
+    font-family: "inter";
+    color: #495057;
+}
+
+button{
+    border-radius: 20px;
+    border-color: #0A3871;
+    display: inline-block;
+    width: 320px;
+    height: 60px;
+    left: 100px;
+    top: 800px;
+
+}
+.encrip{
+    position: absolute;
+    background-color: #0A3871;
+    color:white;
+    width: 320px;
+    height: 60px;
+    left: 100px;
+    top: 700px;
+    cursor: pointer;
+}
+
+.desen{
+    position: absolute;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 320px;
+    height: 60px;
+    left: 450px;
+    top: 700px;
+    cursor: pointer;
+}
+.copiar{
+    position: absolute;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 320px;
+    height: 60px;
+    left: 880px;
+    top: 700px;
+    cursor: pointer;
+}
+
+.input-text-area{
+    position:static;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    overflow: auto;
+}
+
+.muñeco{
+    position:absolute;
+    background: none;
+    width: 300px;
+    left: 880px;
+    top: 200px;
+}
+p{
+    position: absolute;
+    background: none;
+    width: 300px;
+    left: 880px;
+    top: 520px;
+}
+.elemento1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    padding-left: 20px;
+
+}
+.elemento2{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    padding-top: 60px;
+}
